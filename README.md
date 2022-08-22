@@ -15,11 +15,13 @@ Docker нь бидний өмнөх үеийн ашиглаж байсан VM т
 - Docker-compose
 ![Docker compose](https://github.com/gereltod/docker/blob/9eed0d7b290cd39d3b38a6de3e843bf067828ee1/content/docker-compose.png)
 
+> Read more ![https://cloudinfrastructureservices.co.uk/dockerfile-vs-docker-compose-whats-the-difference/](https://cloudinfrastructureservices.co.uk/dockerfile-vs-docker-compose-whats-the-difference/)
 
 
 ```sh
-git checkout production
-git pull origin development
+docker build -f (docker file байршил) -t (таг нэршил) . (фолдер автоматаар Dockerfile авна)  
+docker image ls (local image list)
+docker run -it (docker image file zaaj ogno) 
 git push 
 //командын дараа gitlab дээрх trigger ажиллаж эхэлнэ.
 ```
