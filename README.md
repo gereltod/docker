@@ -21,10 +21,12 @@ Docker нь бидний өмнөх үеийн ашиглаж байсан VM т
 ```sh
 docker build -f (docker file байршил) -t (таг нэршил) . (фолдер автоматаар Dockerfile авна)  
 docker image ls (local image list)
-docker run -it (docker image file zaaj ogno) 
-git push 
-//командын дараа gitlab дээрх trigger ажиллаж эхэлнэ.
+docker run(-p 8080:80) -it (-d deatache - background ajillana) (docker image file zaaj ogno) 
+docker ps (local ajillaj bgaa processiig haruulna)
+
 ```
+> Read more [https://www.edureka.co/blog/docker-commands/](https://www.edureka.co/blog/docker-commands/)
+
 
 Google cloud орчинд дараах өөрчлөлтүүд бий болно... 
 Дундаж хугацаа 10 минут үргэлжлэнэ.
