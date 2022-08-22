@@ -2,7 +2,7 @@
 
 
 Docker нь бидний өмнөх үеийн ашиглаж байсан VM технологийн хамгийн том сул тал болон хүндрэлтэй байдал дээр давуу тал болон гарч ирсэн
-https://www.zdnet.com/a/img/resize/e6736e35f09bddeead7a9ad74233ce564ce59017/2017/05/08/af178c5a-64dd-4900-8447-3abd739757e3/docker-vm-container.png?auto=webp&width=1200
+![Different VM](https://github.com/gereltod/docker/blob/611b675889fb5d6c011dd29c4895a1b5f7b779ea/content/docker-vm-container.webp)
 
 Үндсэн сервис/production болоход дараах системүүд оролцож байгаа.
 - Gitlab runner
