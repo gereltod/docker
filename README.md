@@ -10,8 +10,10 @@ Docker нь бидний өмнөх үеийн ашиглаж байсан VM т
 
 
  _Яагаад docker-compose гарч ирсэн бэ🤔_
-- [.gitlab-ci.yml](https://gitlab.com/Sodtseren/reeward-customer/-/blob/production/.gitlab-ci.yml) -> stage prod
-- [cloudbuild.yaml](https://gitlab.com/Sodtseren/reeward-customer/-/blob/production/cloudbuild.yaml) -> build -> image -> push - > run
+- Docker 
+![Docker](https://github.com/gereltod/docker/blob/9eed0d7b290cd39d3b38a6de3e843bf067828ee1/content/docker.png)
+- Docker-compose
+![Docker compose](https://github.com/gereltod/docker/blob/9eed0d7b290cd39d3b38a6de3e843bf067828ee1/content/docker-compose.png)
 
 
 
