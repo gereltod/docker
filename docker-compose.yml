@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  nginx:
+    build: 
+      context: nginx/.
+      dockerfile: Dockerfile
+    container_name: nginx-test
+    depends_on:
+      - app-node
+      - app-node1
+    networks:
+      - node
+    ports:
+      - "8081:8080"
+
+  app-node:
+    build:
+      context: ./nodeapp
+      dockerfile: Dockerfile.mn
+    container_name: app-node
+    volumes:
+      - "/usr/app:/nodefile"
+    ports:
+      - "8001:8001"
+    networks:
+      - node
+  
+  app-node1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app-node1
+    ports:
+      - "8000:8000"
+    networks:
+      - node
+
+networks:
+  node:

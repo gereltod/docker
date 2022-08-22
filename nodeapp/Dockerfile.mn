@@ -1,0 +1,15 @@
+FROM node:12-slim
+
+ENV ENV=production
+ENV secket_key=asdfasdf
+ENV APP_PORT=8001
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+EXPOSE 8001
+CMD ["yarn","start"]
