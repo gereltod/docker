@@ -27,14 +27,3 @@ docker ps (local ajillaj bgaa processiig haruulna)
 ```
 > Read more [https://www.edureka.co/blog/docker-commands/](https://www.edureka.co/blog/docker-commands/)
 
-
-Google cloud орчинд дараах өөрчлөлтүүд бий болно... 
-Дундаж хугацаа 10 минут үргэлжлэнэ.
-
-- [Goolge Build](https://console.cloud.google.com/cloud-build/builds?project=reeward-production) хамгийн эхэнд running процесс дотор лог бичигдэж байгаа.
-- [Google Container Registry](https://console.cloud.google.com/gcr/images/reeward-production?project=reeward-production) энэ дотор latest гэсэн хамгийн сүүлийн docker image хуулагдана.
-- [Goolge Run](https://console.cloud.google.com/run/detail/asia-southeast1/reeward-customer/revisions?project=reeward-production) бүх үйлдэл дарааллын дагуу зөв алдаагүй явбал revision нэгээр нэмэгдэж, тэр нь хамгийн сүүлийнхээр солигдоно.
-
-
-> Санамж: `--timout=10m` лог удаан хараад нойр хүрвэл [дар](https://www.youtube.com/watch?v=G1IbRujko-A).
-
