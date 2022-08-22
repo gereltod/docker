@@ -15,7 +15,7 @@ Docker нь бидний өмнөх үеийн ашиглаж байсан VM т
 - Docker-compose
 ![Docker compose](https://github.com/gereltod/docker/blob/9eed0d7b290cd39d3b38a6de3e843bf067828ee1/content/docker-compose.png)
 
-> Read more ![https://cloudinfrastructureservices.co.uk/dockerfile-vs-docker-compose-whats-the-difference/](https://cloudinfrastructureservices.co.uk/dockerfile-vs-docker-compose-whats-the-difference/)
+> Read more [https://cloudinfrastructureservices.co.uk/dockerfile-vs-docker-compose-whats-the-difference/](https://cloudinfrastructureservices.co.uk/dockerfile-vs-docker-compose-whats-the-difference/)
 
 
 ```sh
