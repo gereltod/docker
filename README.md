@@ -9,7 +9,7 @@ Docker нь бидний өмнөх үеийн ашиглаж байсан VM т
 - [Docker compose install](https://docs.docker.com/compose/install/)
 
 
- _Яагаад docker-compose гарч ирсэн бэ_🤔
+ __Яагаад docker-compose гарч ирсэн бэ🤔
 - [.gitlab-ci.yml](https://gitlab.com/Sodtseren/reeward-customer/-/blob/production/.gitlab-ci.yml) -> stage prod
 - [cloudbuild.yaml](https://gitlab.com/Sodtseren/reeward-customer/-/blob/production/cloudbuild.yaml) -> build -> image -> push - > run
 
